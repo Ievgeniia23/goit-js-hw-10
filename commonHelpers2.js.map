@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers2.js","sources":["../src/js/2-snackbar.js"],"sourcesContent":["`use strict`\n\nconsole.log(\"snackbar\");"],"names":[],"mappings":"wFAEA,QAAQ,IAAI,UAAU"}
+{"version":3,"file":"commonHelpers2.js","sources":["../src/js/2-snackbar.js"],"sourcesContent":["`use strict`\n\nconsole.log(\"snackbar\");\n\nimport iziToast from \"izitoast\";\n// Додатковий імпорт стилів\nimport \"izitoast/dist/css/iziToast.min.css\";"],"names":[],"mappings":"4HAEA,QAAQ,IAAI,UAAU"}
