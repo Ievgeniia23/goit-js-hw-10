@@ -28,7 +28,9 @@ input:hover,
 input:focus {
     border: 1px solid #000;
 }
-
+input:active {
+    border: 1px solid #4e75ff;
+}
 
 button {
     align-items: center;
