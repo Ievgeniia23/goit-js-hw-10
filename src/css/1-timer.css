@@ -8,7 +8,7 @@
 }
 
 
-input {
+#datetime-picker {
     width: 272px;
     height: 40px;
     font-family: "Montserrat", sans-serif;
@@ -24,11 +24,11 @@ input {
     transition: border .25s cubic-bezier(.4,0,.2,1);
 }
 
-input:hover,
-input:focus {
+#datetime-picker:hover,
+#datetime-picker:focus {
     border: 1px solid #000;
 }
-input:active {
+#datetime-picker:active {
     border: 1px solid #4e75ff;
 }
 

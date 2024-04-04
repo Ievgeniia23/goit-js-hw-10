@@ -84,6 +84,7 @@ function updateTimer({ days, hours, minutes, seconds }) {
 startBtn.addEventListener("click",  () => {
     startTimer();
     startBtn.disabled = true;
+    selector.disabled = true;
   });
 
 
