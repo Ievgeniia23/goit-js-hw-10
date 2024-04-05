@@ -35,13 +35,15 @@ flatpickr(selector, {
                   
        } else {
         startBtn.disabled = true;
+       
         iziToast.show({
           iconUrl: icon,
           message:"Please choose a date in the future",
           messageColor: '#ffffff',
           color: '#ef4040',
-          close: false,
+          close: true,
           position: 'topRight',
+         
         });
       }
     },

@@ -1,3 +1,7 @@
+body {
+    padding: 60px;
+    }
+
 
 fieldset, button, label, input[name="delay"] {
     font-family: "Montserrat", sans-serif;
