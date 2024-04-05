@@ -6,6 +6,7 @@ import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
+import icon from "../img/Group.svg"
 
 
 
@@ -35,7 +36,7 @@ flatpickr(selector, {
        } else {
         startBtn.disabled = true;
         iziToast.show({
-//           // iconUrl: icon,
+          iconUrl: icon,
           message:"Please choose a date in the future",
           messageColor: '#ffffff',
           color: '#ef4040',
